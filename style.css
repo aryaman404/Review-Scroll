@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    background-color: rgb(231, 244, 244);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 450px; 
+    padding: 50px; 
+    box-shadow: 4px 0px 15px 8px rgba(0, 0, 0, .2);
+    border-radius: 20px;    
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#person1{
+    border-radius: 200px;
+    border: 8px solid #4caee8;
+    border-style:inset;
+}
+#author, #job, #info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #5caee8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#author {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#job{
+    margin-top: 6px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color:#2fa0f1;
+    
+}
+#info{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+i{
+    color: #2fa0f1;
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;  
+}
+.random-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
